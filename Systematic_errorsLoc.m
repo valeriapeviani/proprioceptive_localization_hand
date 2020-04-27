@@ -52,7 +52,7 @@ end
 for ii = 1:size(preproc_data,1);
     sub = find(nsubj == preproc_data.subj(ii));
     % compute magnitude of error
-    preproc_data.abs_syst_er(ii) = pdist2(preproc_data.vec_syst_er(ii,1),preproc_data.vec_syst_er(ii,2),'euclidean');
+    preproc_data.abs_syst_er(ii) = sqrt(preproc_data.vec_syst_er(ii,1)^2 + preproc_data.vec_syst_er(ii,2)^2);
     a3d = [preproc_data.vec_syst_er(ii,:) 0]; %make vector in 3 dimensions
     b3d = [idx_little_realvec_rot(sub,:) 0];
     % compute angle of error (between index-little vector and each error vector)
