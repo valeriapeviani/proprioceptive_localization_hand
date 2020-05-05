@@ -1,8 +1,8 @@
 # proprioceptive_localization_hand
 Compute and visualize proprioceptive errors in the Localization Task (Longo & Haggard, 2010). 
 
-Data01 refers to Peviani & Bottini, 2018
-Data02 are the data reported in Peviani, Liotta & Bottini, 2020
+Data01 refers to Peviani & Bottini, Journal of Cognitive Psychology, 2018
+Data02 are the data reported in Peviani, Liotta & Bottini, Acta Psychologica, 2020
 Both the datasets are organized with the following variables organized in columns:
 - subj (subj number),
 - itemN (ordinal number of the trial)
