@@ -5,7 +5,7 @@ paths.data = 'pathdata\'; % insert data directory
 paths.out = 'pathdataout\'; % insert directory where to save preprocessed
 
 % the excel sheet should contain the raw XY pixel coordinates of the perceived and actual landmarks
-% data must be in long format (each row is a trial)
+% data must be in long format (each row is a trial), similarly to data01 and data02
 % the code will read the following variables, organized in columns:
 % - subj (subj id: must be a number),
 % - itemN (ordinal number of the trial)
